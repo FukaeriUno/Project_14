@@ -1,6 +1,10 @@
 package ru.netology.domain;
 
 public class Post {
+    private int id;
+    private int ownerId;
+    private int from_id;
+    private int created_by;
     private String logoImageURL;
     private String groupName;
     private String date;
@@ -8,6 +12,6 @@ public class Post {
     private String postText;
     private LikesInfo likesInfo;
     private CommentsInfo commentsInfo;
-    private ReportInfo reportInfo;
+    private ReplyInfo reportInfo;
     private ViewsInfo viewsInfo;
 }
